@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+	font-family: Verdana,Geneva,sans-serif;
+	background: url('../img/numbers.jpg') center bottom fixed no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+input {
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+}
+
+button {
+	width: 80px;
+	height: 40px;
+	margin-top: 20px;
+	color: #fff;
+	background-color: #3366FF;
+	border: 2px solid #5757FF;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#container {
+	position: relative;
+	top: 30px;
+}
+
+#header {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#guess-counter {
+	position: relative;
+	top: 50px;
+}
+
+#again {
+	width: 160px;
+	height: 60px;
+	font-size: 18px;
+}
+
+
+.invisible {
+	display: none;
+}
+
+.big {
+	font-size: 30px;
+	font-weight: bold;
+}
